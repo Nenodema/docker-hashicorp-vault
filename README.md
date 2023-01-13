@@ -47,4 +47,3 @@ vault operator init
 * https://www.bogotobogo.com/DevOps/Docker/Docker-Vault-Consul.php (used as a start / reference thanks @bogotobogo)
 * https://developer.hashicorp.com/vault/docs/concepts/seal
 
-
