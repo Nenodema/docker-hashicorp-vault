@@ -15,3 +15,4 @@ password = read_response['data']['password']
 print('Authenticated:', auth_response)
 print('Username from vault:', username)
 print('Secret from vault:', password)
+
