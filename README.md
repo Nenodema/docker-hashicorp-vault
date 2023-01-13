@@ -8,9 +8,9 @@
 
 ### Instructions:
 
-1) Pull the project
+1) Clone the project
 ```
-git pull https://github.com/Nenodema/docker-hashicorp-vault.git
+git clone https://github.com/Nenodema/docker-hashicorp-vault.git
 ```
 2) Enter the project directory and start the container with docker-compose
 ```
