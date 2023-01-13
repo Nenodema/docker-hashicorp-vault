@@ -42,7 +42,7 @@ vault operator init
     |-- polices
     `-- README.m
 ```
-### Noteworthy links 
+### Noteworthy links:
 
 * https://www.bogotobogo.com/DevOps/Docker/Docker-Vault-Consul.php (used as a start / reference thanks @bogotobogo)
 * https://developer.hashicorp.com/vault/docs/concepts/seal
