@@ -24,7 +24,7 @@ vault operator init
 ```
 ![image](https://user-images.githubusercontent.com/33698556/212346090-229f6778-811a-46ee-8cf0-1688685cf548.png)
 
-7) Go to http://vault_ip:8200 and unseal the vault with 3 of the 5 keys
+7) Go to http://vault_ip:8200/ and unseal the vault with 3 of the 5 keys
 
 8) Login with the "Initial Root Token" which is provided after the vault initionalization
 
