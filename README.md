@@ -1,4 +1,4 @@
-# Run your Hashicorp vault on docker in production mode
+# HashiCorp Vault on docker in production mode
 
 ### Requirements:
 
@@ -38,3 +38,9 @@ vault operator init
     |-- polices
     `-- README.m
 ```
+### Note worthy links 
+
+* https://www.bogotobogo.com/DevOps/Docker/Docker-Vault-Consul.php
+* https://developer.hashicorp.com/vault/docs/concepts/seal
+
+
