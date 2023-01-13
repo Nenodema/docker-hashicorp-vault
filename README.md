@@ -17,7 +17,7 @@ git pull https://github.com/Nenodema/docker-hashicorp-vault.git
 cd docker-hashicorp-vault
 (sudo) docker-compose up -d
 ```
-4) enter container and initilize vault (save the unseal keys on a secure location)
+4) Enter container and initilize vault (save the unseal keys on a secure location)
 ```
 (sudo) docker exec -it vault_vault-server_1 /bin/sh
 vault operator init
