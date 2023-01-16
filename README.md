@@ -15,7 +15,7 @@ git clone https://github.com/Nenodema/docker-hashicorp-vault.git
 ```
 2) Enter the project directory and start the container with docker-compose
 ```
-cd docker-hashicorp-vault
+cd docker-hashicorp-vault/standalone
 (sudo) docker-compose up -d
 ```
 4) Enter container and initilize vault (save the unseal keys on a secure location)
