@@ -1,10 +1,11 @@
-# HashiCorp Vault on Docker in production mode
+# HashiCorp Vault on Docker in production mode (for dev and test purposes)
 
 ### Requirements:
 
 * Docker
 * Docker-Compose
 * (sudo) rights
+* Certificates
 
 ### Instructions:
 
