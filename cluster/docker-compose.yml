@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   vault-server:
-    image: vault:latest
+    build: .
     container_name: vault_vault-server_1
     restart: always
     ports:
@@ -13,9 +13,9 @@ services:
       - ./policies:/vault/policies
       - ./logs:/vault/logs
     environment:
-      - VAULT_ADDR=http://0.0.0.0:8200
-      - VAULT_API_ADDR=http://0.0.0.0:8200
-      - VAULT_ADDRESS=http://0.0.0.0:8200
+      - VAULT_ADDR=${VAULT_ADDR}
+      - VAULT_API_ADDR=${VAULT_ADDR}
+      - VAULT_ADDRESS=${VAULT_ADDR}
     cap_add:
       - IPC_LOCK
     entrypoint: vault server -config=/vault/config/vault.json
