@@ -1,6 +1,6 @@
 # HashiCorp Vault on Docker in production mode (standalone mode)
 
-Click [here](https://github.com/cisolutions-nl/docker-hashicorp-vault#hashicorp-vault-on-docker-in-production-mode-cluster-mode) for the cluster readme.
+For the cluster mode readme click [here](https://github.com/cisolutions-nl/docker-hashicorp-vault#hashicorp-vault-on-docker-in-production-mode-cluster-mode).
 
 ### Requirements:
 
@@ -73,9 +73,6 @@ vault operator init
 git clone https://github.com/Nenodema/docker-hashicorp-vault.git
 ```
 2) Change variables in the following files:
-```
-cd docker-hashicorp-vault/standalone
-```
 * .env
 * config/vault.json
 * certs/generate_CA.sh
@@ -138,18 +135,19 @@ vault_node_3 10.99.99.12:8201 follower true
 ```
 `-- docker-hashicorp-vault
     |-- cluster
-        |-- config
-        |   `-- vault.json
-        |-- data
-        `-- .env
-        |-- docker-compose.yml
-        |-- logs
-        |-- polices
-        `-- README.m
         |-- certs
         |   `-- generate_CA.sh
         |   `-- generate_cert.sh
         |   `-- generate_cert_req.sh
+        |-- config
+        |   `-- vault.json
+        |-- data
+        |-- docker-compose.yml
+        |-- logs
+        |-- polices
+        `-- .env
+        `-- README.m
+
 ```
 ### Noteworthy links:
 
