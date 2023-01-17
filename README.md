@@ -52,6 +52,10 @@ vault operator init
 * https://www.bogotobogo.com/DevOps/Docker/Docker-Vault-Consul.php
 * https://developer.hashicorp.com/vault/docs/concepts/seal
 
+
+------------------------------------------------------------------------------------------------------------
+
+
 # HashiCorp Vault on Docker in production mode (cluster mode)
 
 ### Requirements:
