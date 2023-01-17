@@ -37,15 +37,10 @@ vault operator init
 ### File structure:
 
 ```
-`-- docker-hashicorp-vault
-    |-- standalone
-        |-- config
-        |   `-- vault.json
-        |-- data
-        |-- docker-compose.yml
-        |-- logs
-        |-- polices
-        `-- README.m
+standalone
+├── config
+│   └── vault.json
+└── docker-compose.yml
 ```
 ### Noteworthy links:
 
@@ -139,20 +134,15 @@ vault_node_3 10.99.99.12:8201 follower true
 ### File structure:
 
 ```
-`-- docker-hashicorp-vault
-    |-- cluster
-        |-- certs
-        |   `-- generate_CA.sh
-        |   `-- generate_cert.sh
-        |   `-- generate_cert_req.sh
-        |-- config
-        |   `-- vault.json
-        |-- data
-        |-- docker-compose.yml
-        |-- logs
-        |-- polices
-        `-- .env
-        `-- README.m
+cluster
+├── Dockerfile
+├── certs
+│   ├── generate_CA.sh
+│   ├── generate_certificate.sh
+│   └── generate_certificate_request.sh
+├── config
+│   └── vault.json
+└── docker-compose.yml
 
 ```
 ### Noteworthy links:
