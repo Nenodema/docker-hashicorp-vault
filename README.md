@@ -69,6 +69,9 @@ vault operator init
 git clone https://github.com/Nenodema/docker-hashicorp-vault.git
 ```
 2) Change variables in the following files:
+```
+cd docker-hashicorp-vault/standalone
+```
 * .env
 * config/vault.json
 * certs/generate_CA.sh
@@ -84,7 +87,7 @@ git clone https://github.com/Nenodema/docker-hashicorp-vault.git
 ```
 5) Generarte Certificate per machine
 ```
-./certs/ggenerate_cert_req.sh
+./certs/generate_cert_req.sh
 ```
 6) Copy the "cert.pem" and the "key.pm" to the config directory
 ```
@@ -92,7 +95,7 @@ copy cert.pem key.pem ../config
 ```
 7) Enter the project directory and start the container with docker-compose
 ```
-cd docker-hashicorp-vault/cluster
+verify that you are in the following directory: docker-hashicorp-vault/cluster
 (sudo) docker-compose up -d --build
 ```
 8) Enter container and initilize vault (save the unseal keys on a secure location)
