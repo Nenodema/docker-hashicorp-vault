@@ -28,7 +28,7 @@ vault operator init
 ```
 ![image](https://user-images.githubusercontent.com/33698556/212346090-229f6778-811a-46ee-8cf0-1688685cf548.png)
 
-7) Go to http://vault_ip:8200/ and unseal the vault with 3 of the 5 keys
+7) Go to http://VAULT_IP:8200/ and unseal the vault with 3 of the 5 keys
 
 8) Login with the "Initial Root Token" which is provided after the vault initionalization
 
@@ -108,7 +108,7 @@ vault operator init
 ```
 ![image](https://user-images.githubusercontent.com/33698556/212346090-229f6778-811a-46ee-8cf0-1688685cf548.png)
 
-9) Go to http://vault_ip:8200/ and unseal the vault with 3 of the 5 keys
+9) Go to http://VAULT_IP:8200/ and unseal the vault with 3 of the 5 keys
 
 10) Login with the "Initial Root Token" which is provided after the vault initionalization
 
@@ -130,7 +130,11 @@ vault_node_1 10.99.99.10:8201 leader true
 vault_node_2 10.99.99.11:8201 follower true
 vault_node_3 10.99.99.12:8201 follower true
 ```
-14) Have fun and stay safe
+14) Go to http://VAULT_IP:8200/ of one of the nodes
+
+15) Login with the "Initial Root Token" which is provided after the vault initionalization
+
+16) Have fun and stay safe
 
 ### File structure:
 
