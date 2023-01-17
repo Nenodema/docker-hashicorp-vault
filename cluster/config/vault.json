@@ -1,19 +1,21 @@
-ui            = true
+ui = true
 
 listener "tcp" {
   address     = "0.0.0.0:8200"
   cluster_address = "0.0.0.0:8201"
-  tls_disable = "true"
+  tls_disable = "false"
+  tls_cert_file = "/vault/config/cert.pem"
+  tls_key_file = "/vault/config/key.pem"
 }
 
 storage "raft" {
   path = "/vault/raft"
-  node_id = "proxnuclv61"
+  node_id = "NODE_ID"
 }
 
 plugin_directory = "/plugins"
 disable_mlock = true
-api_addr = "http://VAULT_IP:8200"
-cluster_addr = "http://VAULT_IP:8201"
+api_addr = "https://VAULT_IP:8200"
+cluster_addr = "https://VAULT_IP:8201"
 
 disable_mlock = true
