@@ -1,6 +1,6 @@
 # HashiCorp Vault on Docker in production mode (standalone mode)
 
-Click [here](https://github.com/cisolutions-nl/docker-hashicorp-vault/edit/main/README.md#hashicorp-vault-on-docker-in-production-mode-cluster-mode) for the cluster readme.
+Click [here](https://github.com/cisolutions-nl/docker-hashicorp-vault#hashicorp-vault-on-docker-in-production-mode-cluster-mode) for the cluster readme.
 
 ### Requirements:
 
