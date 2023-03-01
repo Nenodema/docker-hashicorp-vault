@@ -1,4 +1,4 @@
-# HashiCorp Vault on Docker in production mode (standalone mode)
+# HashiCorp Vault on Docker in production mode (standalone mode, for dev and test purposes only)
 
 For the cluster mode readme click [here](https://github.com/cisolutions-nl/docker-hashicorp-vault#hashicorp-vault-on-docker-in-production-mode-cluster-mode).
 
