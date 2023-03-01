@@ -89,7 +89,7 @@ mv vault-server-ca.crt ../config
 ```
 6) Copy the "cert.pem" and the "key.pm" to the config directory
 ```
-copy cert.pem key.pem ../config
+cp cert.pem key.pem ../config
 ```
 7) Enter the project directory and start the container with docker-compose
 ```
