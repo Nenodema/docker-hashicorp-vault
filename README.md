@@ -75,9 +75,10 @@ git clone https://github.com/Nenodema/docker-hashicorp-vault.git
 * certs/generate_certificate_request.sh
 3) Generate CA, copy and rename CA file, move vault-server-ca.crt to the config directory
 ```
+cd certs
+chmod 766 * (make sure that you are in the certs directory!)
 ./certs/generate_CA.sh
-cp vault-server-ca.pem vault-server-ca.crt
-mv vault-server-ca.crt ../config
+cp vault-server-ca.pem ../vault-server-ca.crt
 ```
 4) Generarte Certificate request per machine
 ```
